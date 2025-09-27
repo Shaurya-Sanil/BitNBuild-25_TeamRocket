@@ -1,0 +1,101 @@
+{
+    "theme": {
+      "name": "Modern Financial Dashboard",
+      "description": "A design system based on the clean, modern dashboard UI with vibrant accents and rounded cards.",
+      "colors": {
+        "background": {
+          "default": "#FFFFFF",
+          "surface": "#F1F5F9"
+        },
+        "text": {
+          "primary": "#0F172A",
+          "secondary": "#64748B",
+          "onDark": "#FFFFFF",
+          "onDarkSecondary": "#94A3B8"
+        },
+        "primary": {
+          "lime": "#D9F99D",
+          "limeText": "#15803D"
+        },
+        "secondary": {
+          "purple": "#E9D5FF",
+          "purpleText": "#5B21B6"
+        },
+        "neutral": {
+          "dark": "#1E293B",
+          "medium": "#334155",
+          "light": "#F1F5F9"
+        },
+        "border": {
+          "subtle": "#E2E8F0"
+        }
+      },
+      "typography": {
+        "fontFamily": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "headings": {
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "color": "var(--colors-text-primary)"
+        },
+        "metric": {
+          "fontSize": "2.25rem",
+          "fontWeight": 700,
+          "color": "var(--colors-text-primary)"
+        },
+        "metricLarge": {
+          "fontSize": "3rem",
+          "fontWeight": 700,
+          "color": "var(--colors-text-onDark)"
+        },
+        "body": {
+          "fontSize": "0.875rem",
+          "color": "var(--colors-text-secondary)"
+        },
+        "metadata": {
+          "fontSize": "0.75rem",
+          "color": "var(--colors-text-secondary)"
+        }
+      },
+      "layout": {
+        "spacing": {
+          "sm": "8px",
+          "md": "16px",
+          "lg": "24px",
+          "xl": "32px"
+        },
+        "borderRadius": {
+          "md": "12px",
+          "lg": "16px",
+          "xl": "24px"
+        }
+      },
+      "components": {
+        "card": {
+          "padding": "var(--layout-spacing-lg)",
+          "borderRadius": "var(--layout-borderRadius-xl)"
+        },
+        "cardLight": {
+          "backgroundColor": "var(--colors-background-surface)",
+          "color": "var(--colors-text-primary)"
+        },
+        "cardDark": {
+          "backgroundColor": "var(--colors-neutral-dark)",
+          "color": "var(--colors-text-onDark)"
+        },
+        "cardLime": {
+          "backgroundColor": "var(--colors-primary-lime)",
+          "color": "var(--colors-text-primary)"
+        },
+        "cardPurple": {
+          "backgroundColor": "var(--colors-secondary-purple)",
+          "color": "var(--colors-text-primary)"
+        },
+        "button": {
+          "borderRadius": "var(--layout-borderRadius-md)",
+          "padding": "8px 16px",
+          "fontWeight": 600
+        }
+      }
+    }
+  }
+  
