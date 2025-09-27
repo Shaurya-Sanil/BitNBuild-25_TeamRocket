@@ -35,7 +35,7 @@ const LandingPage = () => {
 
         <div className="lp-hero-inner container">
           <div className="lp-hero-copy">
-            <h1 className="lp-hero-title">Find the perfect freelance services for your campus projects</h1>
+            <h1 className="lp-hero-title">Find the perfect freelance services for your projects</h1>
             <p className="body lp-hero-sub">Search for any service, connect with students and freelancers, and get work done fast.</p>
 
             <div className="lp-search lp-search-large">
