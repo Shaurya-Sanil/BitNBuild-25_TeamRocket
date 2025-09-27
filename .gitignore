@@ -23,6 +23,4 @@ yarn-error.log*
 .vscode/
 coverage/
 
-# Public assets that are generated
-public/hero.mp4
-public/logo.png
+
