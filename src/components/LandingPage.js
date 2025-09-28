@@ -127,6 +127,8 @@ const LandingPage = () => {
       </section>
 
       <section className="container lp-value-prop">
+        <h2>Make it all happen with student talent</h2>
+            
         <h2 className="lp-value-headline metric-large" style={{ textAlign: 'center', marginBottom: '24px' }}>
           Make it all happen with student talent
         </h2>
