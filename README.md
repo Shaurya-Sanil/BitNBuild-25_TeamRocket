@@ -1,6 +1,6 @@
 # GigCampus - Student Freelance Hub
 
-A modern React web application that connects student freelancers with clients within their university and local community. Built with a clean, modern design system inspired by financial dashboards.
+A webapp that connects student freelancers with clients within their university and local community. Built with a clean, modern design system inspired by financial dashboards.
 
 ## 🚀 Features
 
@@ -88,11 +88,6 @@ npm run build
 ```
 
 This creates an optimized build in the `build` folder that can be deployed to any static hosting service.
-
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🎯 Future Enhancements
 
