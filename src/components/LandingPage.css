@@ -132,6 +132,65 @@
     color: var(--text-secondary);
   }
 
+  /* Value Proposition Section Styling */
+.lp-value-prop {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.lp-value-headline {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--colors-text-primary);
+}
+.lp-value-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.lp-value-card {
+  background: var(--colors-background-surface);
+  border-radius: var(--layout-borderRadius-xl);
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.04);
+  padding: 32px 16px;
+  transition: box-shadow 0.2s;
+}
+.lp-value-card:hover {
+  box-shadow: 0 4px 16px rgba(16, 24, 40, 0.08);
+}
+.lp-value-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.lp-value-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+  color: var(--colors-text-primary);
+}
+.lp-value-subtext {
+  font-size: 0.95rem;
+  color: var(--colors-text-secondary);
+}
+.lp-value-cta {
+  margin-top: 8px;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .lp-value-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .lp-value-grid {
+    grid-template-columns: 1fr;
+  }
+  .lp-value-card {
+    padding: 24px 8px;
+  }
+}
+
+
+
   /* Fiverr-like landing styles */
   .lp-hero { padding: var(--spacing-xl) 0; }
   .lp-hero-inner { display:flex; gap:var(--spacing-lg); align-items:flex-start; }
