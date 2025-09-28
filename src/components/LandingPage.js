@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './LandingPage.css';
@@ -65,6 +64,30 @@ const sampleGigs = [
   }
 ];
 
+// Icons can be SVG inline or emoji for simplicity
+const valueProps = [
+  {
+    icon: "🎓",
+    title: "Verified Student Talent",
+    subtext: "Hire skilled students from your campus."
+  },
+  {
+    icon: "⚡",
+    title: "Easy Project Posting",
+    subtext: "Post projects in minutes and get quick bids."
+  },
+  {
+    icon: "💼",
+    title: "Affordable & Reliable",
+    subtext: "Get quality work within your budget."
+  },
+  {
+    icon: "🔒",
+    title: "Secure Payments",
+    subtext: "Funds released only after approval."
+  }
+];
+
 const LandingPage = () => {
   return (
     <div className="landing-page">
@@ -103,7 +126,6 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
-
         </div>
       </header>
 
@@ -126,33 +148,19 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* --- Value Proposition Section --- */}
       <section className="container lp-value-prop">
-        <h2>Make it all happen with student talent</h2>
-            
         <h2 className="lp-value-headline metric-large" style={{ textAlign: 'center', marginBottom: '24px' }}>
           Make it all happen with student talent
         </h2>
         <div className="grid grid-4 lp-value-grid" style={{ justifyContent: 'center', gap: '24px', marginBottom: '32px' }}>
-          <div className="card card-light lp-value-card" style={{ textAlign: 'center', padding: '32px 16px' }}>
-            <div className="lp-value-icon" style={{ fontSize: '2.5rem', marginBottom: '12px' }}>🎓</div>
-            <div className="lp-value-title" style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: '4px' }}>Verified Student Talent</div>
-            <div className="lp-value-subtext" style={{ fontSize: '0.95rem', color: 'var(--colors-text-secondary)' }}>Hire skilled students from your campus.</div>
-          </div>
-          <div className="card card-light lp-value-card" style={{ textAlign: 'center', padding: '32px 16px' }}>
-            <div className="lp-value-icon" style={{ fontSize: '2.5rem', marginBottom: '12px' }}>⚡</div>
-            <div className="lp-value-title" style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: '4px' }}>Easy Project Posting</div>
-            <div className="lp-value-subtext" style={{ fontSize: '0.95rem', color: 'var(--colors-text-secondary)' }}>Post projects in minutes and get quick bids.</div>
-          </div>
-          <div className="card card-light lp-value-card" style={{ textAlign: 'center', padding: '32px 16px' }}>
-            <div className="lp-value-icon" style={{ fontSize: '2.5rem', marginBottom: '12px' }}>💼</div>
-            <div className="lp-value-title" style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: '4px' }}>Affordable & Reliable</div>
-            <div className="lp-value-subtext" style={{ fontSize: '0.95rem', color: 'var(--colors-text-secondary)' }}>Get quality work within your budget.</div>
-          </div>
-          <div className="card card-light lp-value-card" style={{ textAlign: 'center', padding: '32px 16px' }}>
-            <div className="lp-value-icon" style={{ fontSize: '2.5rem', marginBottom: '12px' }}>🔒</div>
-            <div className="lp-value-title" style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: '4px' }}>Secure Payments</div>
-            <div className="lp-value-subtext" style={{ fontSize: '0.95rem', color: 'var(--colors-text-secondary)' }}>Funds released only after approval.</div>
-          </div>
+          {valueProps.map((prop, idx) => (
+            <div key={idx} className="card card-light lp-value-card" style={{ textAlign: 'center', padding: '32px 16px' }}>
+              <div className="lp-value-icon" style={{ fontSize: '2.5rem', marginBottom: '12px' }}>{prop.icon}</div>
+              <div className="lp-value-title" style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: '4px' }}>{prop.title}</div>
+              <div className="lp-value-subtext" style={{ fontSize: '0.95rem', color: 'var(--colors-text-secondary)' }}>{prop.subtext}</div>
+            </div>
+          ))}
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <Link to="/login" className="button button-primary lp-value-cta" style={{ fontSize: '1.1rem', padding: '12px 32px', borderRadius: '16px' }}>
@@ -160,7 +168,8 @@ const LandingPage = () => {
           </Link>
         </div>
       </section>
-              
+      {/* --- End Value Proposition Section --- */}
+
       <section className="container lp-benefits">
         <div className="grid grid-2">
           <div className="card card-light">
