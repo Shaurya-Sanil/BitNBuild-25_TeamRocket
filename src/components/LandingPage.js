@@ -14,12 +14,56 @@ const categories = [
   'Lifestyle'
 ];
 
-const sampleGigs = new Array(8).fill(0).map((_, i) => ({
-  id: i + 1,
-  title: `Professional Service ${i + 1}`,
-  price: (5 + i * 10),
-  seller: `Seller ${i + 1}`
-}));
+const sampleGigs = [
+  {
+    id: 1,
+    title: "Website Design & Development",
+    price: 2999,
+    seller: "Priya Sharma"
+  },
+  {
+    id: 2,
+    title: "Logo Design & Branding",
+    price: 1500,
+    seller: "Rahul Mehta"
+  },
+  {
+    id: 3,
+    title: "Social Media Marketing",
+    price: 2000,
+    seller: "Sneha Singh"
+  },
+  {
+    id: 4,
+    title: "Content Writing & Blog Posts",
+    price: 1200,
+    seller: "Amit Patel"
+  },
+  {
+    id: 5,
+    title: "Video Editing & Animation",
+    price: 3500,
+    seller: "Anjali Verma"
+  },
+  {
+    id: 6,
+    title: "Music Production & Mixing",
+    price: 2500,
+    seller: "Rohan Nair"
+  },
+  {
+    id: 7,
+    title: "Mobile App Development",
+    price: 5000,
+    seller: "Neha Kulkarni"
+  },
+  {
+    id: 8,
+    title: "SEO Optimization",
+    price: 2200,
+    seller: "Vikas Khanna"
+  }
+];
 
 const LandingPage = () => {
   return (
