@@ -46,28 +46,6 @@ npm start
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🎨 Design System
-
-The application uses a comprehensive design system defined in `design.json` and implemented through CSS custom properties:
-
-### Colors
-- **Background**: Clean whites and light grays
-- **Primary**: Lime green (#D9F99D) for highlights and success states
-- **Secondary**: Purple (#E9D5FF) for accents and secondary actions
-- **Text**: Dark slate for primary text, medium grays for secondary
-
-### Typography
-- **Font Family**: Inter (with system font fallbacks)
-- **Headings**: 1rem, 600 weight
-- **Metrics**: 2.25rem, 700 weight (for large numbers)
-- **Body**: 0.875rem for regular text
-- **Metadata**: 0.75rem for small details
-
-### Layout
-- **Spacing**: 8px, 16px, 24px, 32px scale
-- **Border Radius**: 12px (medium), 16px (large), 24px (extra large)
-- **Shadows**: Subtle elevation system
-
 ## 📱 Pages & Components
 
 ### Dashboard
@@ -176,7 +154,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Dark mode theme
 - [ ] Advanced project management tools
 
----
 
-Built with ❤️ for the student freelance community.
 
