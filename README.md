@@ -114,12 +114,6 @@ Modify the spacing scale:
 }
 ```
 
-## 📱 Responsive Design
-
-The application is fully responsive with breakpoints:
-- **Mobile**: < 768px (single column layout)
-- **Tablet**: 768px - 1024px (adjusted grid columns)
-- **Desktop**: > 1024px (full multi-column layout)
 
 ## 🚀 Deployment
 
@@ -131,13 +125,6 @@ npm run build
 
 This creates an optimized build in the `build` folder that can be deployed to any static hosting service.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
