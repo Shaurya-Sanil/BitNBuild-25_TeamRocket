@@ -78,42 +78,6 @@ npm start
 - Skills assessment and progress tracking
 - Performance metrics
 
-## 🔧 Customization
-
-### Colors
-Modify the color scheme by updating CSS custom properties in `src/index.css`:
-
-```css
-:root {
-  --colors-primary-lime: #D9F99D;
-  --colors-secondary-purple: #E9D5FF;
-  /* ... other colors */
-}
-```
-
-### Typography
-Adjust font sizes and weights:
-
-```css
-:root {
-  --heading-font-size: 1rem;
-  --metric-font-size: 2.25rem;
-  /* ... other typography */
-}
-```
-
-### Spacing
-Modify the spacing scale:
-
-```css
-:root {
-  --spacing-sm: 8px;
-  --spacing-md: 16px;
-  --spacing-lg: 24px;
-  --spacing-xl: 32px;
-}
-```
-
 
 ## 🚀 Deployment
 
